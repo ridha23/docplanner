@@ -9,16 +9,12 @@ body {
   background-color: white;
 }
 
-.header {
-    background-color: white;
-}
-
 nav {
-    width: 52%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 58px;
     font-weight: 400;
     font-size: 14px;
@@ -27,8 +23,8 @@ nav {
     position: fixed;
     top: 0;
     background-color: white;
-    margin-left: 450px;
 }
+
 
 .sticky {
   background-color: #ffffff;
